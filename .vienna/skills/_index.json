@@ -1,13 +1,13 @@
 [
   {
-    "id": "getting-started",
-    "name": "Getting Started",
-    "description": "Introduction to using Vienna profiles — how to customize and share",
+    "id": "frontend-craft",
+    "name": "Frontend Craft",
+    "description": "Frontend engineering — components, accessibility, performance, and design systems",
     "version": "1.0.0",
     "source": "inline",
-    "icon": "👋",
-    "category": "Onboarding",
-    "tags": ["profiles", "onboarding", "getting-started"],
+    "icon": "🎨",
+    "category": "Engineering",
+    "tags": ["frontend", "react", "accessibility", "performance"],
     "author": { "name": "Vienna Team" }
   }
 ]

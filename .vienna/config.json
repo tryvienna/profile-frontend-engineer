@@ -6,10 +6,11 @@
   "icon": "🎨",
   "tags": ["frontend", "react", "css", "accessibility", "performance"],
   "plugins": [
-    { "id": "linear", "requirement": "recommended", "reason": "Track UI bugs and feature work with Linear" }
+    { "id": "linear", "requirement": "recommended", "reason": "Track UI bugs and feature work with Linear" },
+    { "id": "profile_badge", "requirement": "recommended", "reason": "Shows the active content profile in the menu bar" }
   ],
   "skills": [
-    { "id": "getting-started", "requirement": "recommended" }
+    { "id": "frontend-craft", "requirement": "recommended" }
   ],
   "quickActions": [
     { "id": "design-to-code", "requirement": "recommended" },
