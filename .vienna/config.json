@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "name": "Frontend Engineer",
+  "description": "Quick actions and tools for frontend engineers — design-to-code, accessibility, performance, testing, and responsive design.",
+  "author": { "name": "Vienna Team", "url": "https://tryvienna.com" },
+  "icon": "🎨",
+  "tags": ["frontend", "react", "css", "accessibility", "performance"],
+  "plugins": [
+    { "id": "linear", "requirement": "recommended", "reason": "Track UI bugs and feature work with Linear" }
+  ],
+  "skills": [
+    { "id": "getting-started", "requirement": "recommended" }
+  ],
+  "quickActions": [
+    { "id": "design-to-code", "requirement": "recommended" },
+    { "id": "accessibility-audit", "requirement": "recommended" },
+    { "id": "performance-debug", "requirement": "recommended" },
+    { "id": "e2e-tests", "requirement": "recommended" },
+    { "id": "responsive-design", "requirement": "recommended" }
+  ],
+  "registries": [],
+  "settings": []
+}

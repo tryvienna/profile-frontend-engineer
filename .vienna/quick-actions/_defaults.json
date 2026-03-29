@@ -1,0 +1,4 @@
+{
+  "version": 1,
+  "defaults": ["design-to-code", "accessibility-audit", "performance-debug", "e2e-tests", "responsive-design"]
+}

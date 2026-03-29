@@ -1,0 +1,127 @@
+[
+  {
+    "id": "design-to-code",
+    "label": "Convert design to code",
+    "icon": "🎨",
+    "description": "Turn Figma designs into React components",
+    "author": { "name": "Vienna Team" },
+    "tags": ["figma", "react", "tailwind", "components"],
+    "options": [
+      {
+        "id": "design-react-tailwind",
+        "label": "Figma to React + Tailwind component",
+        "prompt": "Convert the design I describe into a React component using Tailwind CSS. Match our existing design system tokens and component patterns. Include proper TypeScript props interface, responsive behavior, and accessibility attributes."
+      },
+      {
+        "id": "design-tokens",
+        "label": "Extract design tokens",
+        "prompt": "Extract design tokens from the design I describe — colors, spacing, typography, border radius, shadows. Output them in our existing token format (CSS variables, Tailwind config, or theme object) to match the codebase."
+      },
+      {
+        "id": "design-storybook",
+        "label": "Component with Storybook stories",
+        "prompt": "Create a React component from the design I describe AND generate Storybook stories for it. Include stories for: default state, all variants, edge cases (long text, empty state, loading), and interactive controls."
+      }
+    ]
+  },
+  {
+    "id": "accessibility-audit",
+    "label": "Audit accessibility",
+    "icon": "♿",
+    "description": "Find and fix accessibility issues",
+    "author": { "name": "Vienna Team" },
+    "tags": ["a11y", "accessibility", "wcag"],
+    "options": [
+      {
+        "id": "a11y-full",
+        "label": "Full WCAG audit with fix code",
+        "prompt": "Audit this component or page for WCAG 2.1 AA accessibility issues. For each issue found: describe the problem, cite the WCAG criterion, explain the user impact, and provide the fix code. Check: semantic HTML, ARIA, keyboard navigation, color contrast, focus management, and screen reader experience."
+      },
+      {
+        "id": "a11y-keyboard",
+        "label": "Keyboard navigation review",
+        "prompt": "Review this component's keyboard navigation. Check: tab order, focus indicators, keyboard traps, shortcut conflicts, and screen reader announcements. Suggest fixes for any issues and add appropriate ARIA attributes."
+      },
+      {
+        "id": "a11y-forms",
+        "label": "Form accessibility check",
+        "prompt": "Audit this form for accessibility. Check: label associations, error message announcements, required field indicators, input types, autocomplete attributes, and validation feedback. Generate fix code for each issue."
+      }
+    ]
+  },
+  {
+    "id": "performance-debug",
+    "label": "Debug performance",
+    "icon": "⚡",
+    "description": "Find and fix rendering and bundle performance issues",
+    "author": { "name": "Vienna Team" },
+    "tags": ["performance", "react", "bundle-size"],
+    "options": [
+      {
+        "id": "perf-rerenders",
+        "label": "Why is this component re-rendering?",
+        "prompt": "Analyze this component for unnecessary re-renders. Check: missing memoization, unstable references in props/context, state that should be lifted or lowered, and expensive computations that should be memoized. Suggest specific fixes."
+      },
+      {
+        "id": "perf-bundle",
+        "label": "What's bloating the bundle?",
+        "prompt": "Analyze the project's bundle size. Identify the largest dependencies, find unused imports, suggest code-splitting opportunities, and recommend lighter alternatives for heavy packages. Show expected size savings."
+      },
+      {
+        "id": "perf-vitals",
+        "label": "Improve Core Web Vitals",
+        "prompt": "Analyze this page for Core Web Vitals issues. Check LCP (largest contentful paint), FID/INP (interaction delay), and CLS (layout shift). For each metric, identify the cause and suggest specific fixes with code."
+      }
+    ]
+  },
+  {
+    "id": "e2e-tests",
+    "label": "Generate E2E tests",
+    "icon": "🧪",
+    "description": "Create end-to-end tests for user flows",
+    "author": { "name": "Vienna Team" },
+    "tags": ["testing", "playwright", "e2e"],
+    "options": [
+      {
+        "id": "e2e-user-flow",
+        "label": "Test a complete user flow",
+        "prompt": "Generate Playwright E2E tests for the user flow I describe. Include: happy path, common error cases, edge cases, and accessibility checks. Use data-testid selectors where available, and page object pattern if the flow spans multiple pages."
+      },
+      {
+        "id": "e2e-visual",
+        "label": "Visual regression tests",
+        "prompt": "Generate visual regression tests for this component or page. Set up screenshot comparisons for: default state, hover/focus states, responsive breakpoints, and dark/light theme. Include appropriate thresholds for pixel differences."
+      },
+      {
+        "id": "e2e-form",
+        "label": "Form validation tests",
+        "prompt": "Generate E2E tests for this form. Cover: successful submission, each validation rule, required field enforcement, server error handling, and accessibility (tab through fields, screen reader labels). Use realistic test data."
+      }
+    ]
+  },
+  {
+    "id": "responsive-design",
+    "label": "Make it responsive",
+    "icon": "📱",
+    "description": "Create responsive variants and mobile layouts",
+    "author": { "name": "Vienna Team" },
+    "tags": ["responsive", "mobile", "css"],
+    "options": [
+      {
+        "id": "responsive-mobile",
+        "label": "Create mobile variant",
+        "prompt": "Create a responsive mobile variant of this component. Adapt the layout for small screens (< 640px): stack horizontal layouts vertically, adjust font sizes, handle touch targets (min 44px), and hide non-essential elements. Use Tailwind responsive prefixes."
+      },
+      {
+        "id": "responsive-breakpoints",
+        "label": "Add all breakpoint variants",
+        "prompt": "Add responsive behavior for all standard breakpoints (mobile, tablet, desktop, wide). Show the layout changes at each breakpoint and use container queries where they make more sense than media queries."
+      },
+      {
+        "id": "responsive-debug",
+        "label": "Fix layout overflow issues",
+        "prompt": "Debug responsive layout issues in this component. Check for: horizontal overflow, text truncation problems, image scaling, flexbox/grid issues at narrow widths, and missing min/max constraints. Fix each issue."
+      }
+    ]
+  }
+]
