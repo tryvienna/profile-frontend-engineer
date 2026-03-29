@@ -1,23 +1,58 @@
 {
   "version": 1,
   "name": "Frontend Engineer",
-  "description": "Quick actions and tools for frontend engineers — design-to-code, accessibility, performance, testing, and responsive design.",
-  "author": { "name": "Vienna Team", "url": "https://tryvienna.com" },
-  "icon": "🎨",
-  "tags": ["frontend", "react", "css", "accessibility", "performance"],
+  "description": "Quick actions and tools for frontend engineers \u2014 design-to-code, accessibility, performance, testing, and responsive design.",
+  "author": {
+    "name": "Vienna Team",
+    "url": "https://tryvienna.com"
+  },
+  "icon": "\ud83c\udfa8",
+  "tags": [
+    "frontend",
+    "react",
+    "css",
+    "accessibility",
+    "performance"
+  ],
   "plugins": [
-    { "id": "linear", "requirement": "recommended", "reason": "Track UI bugs and feature work with Linear" },
-    { "id": "profile_badge", "requirement": "recommended", "reason": "Shows the active content profile in the menu bar" }
+    {
+      "id": "linear",
+      "requirement": "recommended",
+      "reason": "Track UI bugs and feature work with Linear"
+    },
+    {
+      "id": "frontend-badge",
+      "requirement": "recommended",
+      "reason": "Shows profile identity in menu bar"
+    }
   ],
   "skills": [
-    { "id": "frontend-craft", "requirement": "recommended" }
+    {
+      "id": "frontend-craft",
+      "requirement": "recommended"
+    }
   ],
   "quickActions": [
-    { "id": "design-to-code", "requirement": "recommended" },
-    { "id": "accessibility-audit", "requirement": "recommended" },
-    { "id": "performance-debug", "requirement": "recommended" },
-    { "id": "e2e-tests", "requirement": "recommended" },
-    { "id": "responsive-design", "requirement": "recommended" }
+    {
+      "id": "design-to-code",
+      "requirement": "recommended"
+    },
+    {
+      "id": "accessibility-audit",
+      "requirement": "recommended"
+    },
+    {
+      "id": "performance-debug",
+      "requirement": "recommended"
+    },
+    {
+      "id": "e2e-tests",
+      "requirement": "recommended"
+    },
+    {
+      "id": "responsive-design",
+      "requirement": "recommended"
+    }
   ],
   "registries": [],
   "settings": []
