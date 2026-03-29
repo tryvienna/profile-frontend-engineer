@@ -1,4 +1,4 @@
 {
   "version": 1,
-  "defaults": ["linear", "frontend_badge"]
+  "defaults": ["linear", "frontend-badge"]
 }

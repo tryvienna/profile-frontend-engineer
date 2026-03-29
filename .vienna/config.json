@@ -21,7 +21,7 @@
       "reason": "Track UI bugs and feature work with Linear"
     },
     {
-      "id": "frontend_badge",
+      "id": "frontend-badge",
       "requirement": "recommended",
       "reason": "Shows profile identity in menu bar"
     }
