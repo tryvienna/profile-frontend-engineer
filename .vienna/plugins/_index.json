@@ -12,7 +12,7 @@
     "author": { "name": "Drift Team" }
   },
   {
-    "id": "frontend-badge",
+    "id": "frontend_badge",
     "name": "Frontend Engineer",
     "description": "Tools for frontend development workflows",
     "version": "0.0.1",
